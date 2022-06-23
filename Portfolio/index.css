@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* p {
+=======
+p {
+>>>>>>> refs/remotes/origin/main
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -9,6 +13,7 @@
 li {
   background-color:#99cc00;
   width: 300px;
+<<<<<<< HEAD
 } */
 
 nav {
@@ -34,3 +39,6 @@ a {
 footer{
   text-align: center;
 }
+=======
+}
+>>>>>>> refs/remotes/origin/main
