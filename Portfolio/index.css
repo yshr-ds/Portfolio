@@ -1,0 +1,36 @@
+/* p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+li {
+  background-color:#99cc00;
+  width: 300px;
+} */
+
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: darkgray;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+ul.menu {
+  display: flex;
+}
+li.menu {
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-right: 35px;
+}
+
+footer{
+  text-align: center;
+}
