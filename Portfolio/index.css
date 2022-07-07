@@ -96,3 +96,8 @@ img {
   width:20%;
   height:auto;
 }
+
+img.work {
+  width:60%;
+  height:60%;
+}
