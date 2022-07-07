@@ -21,17 +21,24 @@ nav {
   padding-top: 5px;
   box-sizing: border-box;
 }
+
 ul.menu {
   display: flex;
 }
+
 li.menu {
   list-style: none;
 }
+
 a {
   display: block;
   text-decoration: none;
   color: white;
   margin-right: 35px;
+}
+
+a.works {
+  color: black;
 }
 
 footer{
@@ -92,11 +99,11 @@ footer{
 }
 }
 
+
 img {
   width:20%;
   height:auto;
 }
-
 img.work {
   width:60%;
   height:60%;
