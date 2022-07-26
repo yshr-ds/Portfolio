@@ -265,18 +265,19 @@ li {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: -50px;
+  margin-left: 20%;
 }
 
 .skill-item {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  width: 48%;
+  width: 50%;
   margin-bottom: 50px;
 }
 
 .skill-img {
-  width: 60px;
+  width: 80px;
   height: auto;
   margin-right: 20px;
 }
@@ -607,6 +608,3 @@ li {
     left: 0;
   } */
 }
-
-/* 横線 */
-
