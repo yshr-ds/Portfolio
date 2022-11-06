@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property="og:image" content="img/ogp.png">
+  <title>Yuto_Yasuhara Port_folio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <!-- <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" /> -->
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel=”canonical” href=”URLが入る” />
+</head>
+
+<body>
+  <div id="border-uu"></div>
+  <div id="border-u"></div>
+  <div id="border-r"></div>
+  <div id="border-l"></div>
+  <div id="border-d"></div>
+
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="header-inner">
+        <h1 class="header-logo">
+          <a href=".">Yasu's Port Folio</a>
+        </h1>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item"><a href="#works">WORKS</a></li>
+            <li class="header-nav-item"><a href="#skill">SKILL</a></li>
+            <!-- <li class="header-nav-item"><a href="#field">FIELD</a></li> -->
+            <li class="header-nav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- split -->
+      <div class="split">
+        <div class="split-body">
+          <p class="split-title">
+            <span>YUTO<br>YASUHARA</span></p>
+          <p class="split-text">
+            <span>
+            武蔵野大学 データサイエンス学部 2025年卒業予定<br>
+            趣味は漫画・映画鑑賞<br>
+            年内(2022)に10個以上のWebアプリの創出を目標<br>
+            夢の国のような幸せをカタチにするサービス開発を心がけています
+            </span>
+          </p>
+        </div>
+        <div class="split-img"></div>
+      </div>
+      <!-- /split -->
+
+      <!-- 文字スライド -->
+      <script>
+        const CLASSNAME = "-visible";
+        const TIMEOUT = 1500;
+        const DELAY = 100;
+        const $target1 = $(".split-title");
+        const $target2 = $(".split-text");
+
+        setInterval(() => {
+          $target1.addClass(CLASSNAME);
+          setTimeout(() => {
+            $target2.addClass(CLASSNAME);
+          }, DELAY);
+
+          setTimeout(() => {
+            $target1.removeClass(CLASSNAME);
+            setTimeout(() => {
+              $target2.removeClass(CLASSNAME);
+            }, DELAY);
+          }, TIMEOUT);
+        }, TIMEOUT * 2);
+      </script>
+
+      <!-- works -->
+      <section class="works section" id="works">
+        <div class="inner">
+          <div class="catch"><h2 class="title">WORKS</h2></div>
+          <div class="works-list">
+            <a class="works-item" href="shuarel.html">
+              <p class="works-img"><img src="img/Shuarel.png" alt="" /></p>
+              <p class="works-name">Shuarel</p>
+              <p class="works-info">Front-end(Design) / Back-end(System)</p>
+            </a>
+            <a class="works-item" href="club.html">
+              <p class="works-img"><img src="img/MU.png" alt="" /></p>
+              <p class="works-name">武蔵野大学 サークル紹介サイト</p>
+              <p class="works-info">Front-end(Design Top page) / Back-end(Posting and list)</p>
+            </a>
+            <a class="works-item" href="memorea.html">
+              <p class="works-img"><img src="img/memorea.png" alt="" /></p>
+              <p class="works-name">Memorea</p>
+              <p class="works-info">Design(Logo) / Plan</p>
+            </a>
+            <!-- <a class="works-item" href="works-template.html">
+              <p class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></p>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Banner Design</p>
+            </a>
+            <a class="works-item" href="works-template.html">
+              <p class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></p>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Banner Design</p>
+            </a> -->
+          </div>
+        </div>
+      </section>
+      <!-- /works -->
+
+      <!-- skill -->
+      <section class="skill section" id="skill">
+        <div class="inner">
+          <h2 class="title">SKILL</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icons8-html-5-150.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">HTML5</h3>
+                <p class="skill-text">
+                  学習、アウトプット中です。</p>
+                  <div class="icons8"><a target="_blank" href="https://icons8.com/icon/20909/html-5">HTML 5</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                  </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icons8-css3-150.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">CSS3</h3>
+                <p class="skill-text">
+                  学習、アウトプット中です。</p>
+                  <div class="icons8"><a target="_blank" href="https://icons8.com/icon/21278/css3">CSS3</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                  </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icons8-sass-150.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Sass</h3>
+                <p class="skill-text">
+                  学習、アウトプット中です。</p>
+                  <div class="icons8"><a target="_blank" href="https://icons8.com/icon/QBqFNfPPB2Kx/sass">Sass</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                  </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icons8-php-logo-150.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">PHP</h3>
+                <p class="skill-text">
+                  学習、アウトプット中です。</p>
+                  <div class="icons8"><a target="_blank" href="https://icons8.com/icon/fAMVO_fuoOuC/php-logo">PHP Logo</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                  </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icons8-python-150.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Python</h3>
+                <p class="skill-text">
+                  学習、アウトプット中です。</p>
+                  <div class="icons8"><a target="_blank" href="https://icons8.com/icon/13441/python">Python</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                  </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icons8-React-150.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">React</h3>
+                <p class="skill-text">
+                  学習、アウトプット中です。</p>
+                  <div class="icons8"><a target="_blank" href="https://icons8.com/icon/Nlsua06Gvxel/React">React</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                  </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icons8-javascript-150.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">JavaScript</h3>
+                <p class="skill-text">
+                  学習、アウトプット中です。</p>
+                  <div class="icons8"><a target="_blank" href="https://icons8.com/icon/108784/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                  </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icons8-node-js-150.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Node.js</h3>
+                <p class="skill-text">
+                  学習、アウトプット中です。</p>
+                  <div class="icons8"><a target="_blank" href="https://icons8.com/icon/hsPbhkOH4FMe/node-js">Node Js</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                  </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icons8-gulp-150.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Gulp.js</h3>
+                <p class="skill-text">
+                  学習、アウトプット中です。</p>
+                  <div class="icons8"><a target="_blank" href="https://icons8.com/icon/GX4iT6biRXL-/gulp">Gulp</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                  </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icons8-swift-150.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Swift</h3>
+                <p class="skill-text">
+                  学習、アウトプット中です。</p>
+                  <div class="icons8">¥<a target="_blank" href="https://icons8.com/icon/24465/swift">Swift</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                  </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icons8-swiftui-150.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">SwiftUI</h3>
+                <p class="skill-text">
+                  学習、アウトプット中です。</p>
+                  <div class="icons8"><a target="_blank" href="https://icons8.com/icon/3cCrxzZF7LfB/swiftui">SwiftUI</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                  </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icons8-postgresql-150.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Postgresql</h3>
+                <p class="skill-text">
+                  学習、アウトプット中です。</p>
+                  <div class="icons8"><a target="_blank" href="https://icons8.com/icon/38561/postgresql">PostgreSQL</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /skill -->
+
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <div class="inner">
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            <!-- お問い合わせは、<br class="sp-only">SNSかメールにてお願いいたします。 -->
+          </p>
+          <div class="contact-list">
+            <!-- <a class="contact-item" href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a> -->
+            <a class="contact-item" href="https://www.instagram.com/yas_desuyo" target="_blank" rel="noopener">Instagram</a>
+            <!-- <span class="contact-item">yasuyuuds@gmail.com</span> -->
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;YUTO YASUHARA</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
