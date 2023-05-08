@@ -293,14 +293,22 @@ li {
 /*--------------------------------
  Contact
 ---------------------------------*/
-.contact-item:not(:last-child) {
-  margin-right: 10px;
+.contact-list{
+  display: flex;
+  justify-content: center;
 }
 
-.contact-text {
-  margin-top: 10px;
+
+.contact-item:not(:last-child) {
+  margin-right: 20px;
 }
-/*--------------------------------
+
+/* .contact-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+----------------------
  ページトップ
 ---------------------------------*/
 .page-top {
