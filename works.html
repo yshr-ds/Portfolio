@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta property='og:type' content='website'>
+    <meta property='og:title' content='Yuto Yasuhara ポートフォリオ'>
+    <meta property='og:url' content='URLが入る'>
+    <meta property='og:description' content='Yuto Yasuharaのポートフォリオサイトです。'>
+    <meta property="og:image" content="img/ogp.png">
+    <meta name="description" content="Yuto Yasuharaのポートフォリオサイトです" />
+    <title>Yasu's Port Folio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/output.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel=”canonical” href=”URLが入る” />
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    </head>
+
+    <body>
+
+    <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+        <div class="header-inner">
+        <h1 class="header-logo">
+            <a href=".">Yasu's Port Folio</a>
+        </h1>
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+            <li class="header-nav-item"><a href="works.html">WORKS</a></li>
+            <li class="header-nav-item"><a href="./#skill">SKILL</a></li>
+            <li class="header-nav-item"><a href="./#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <!-- /header -->
+
+    <main class="worksmain">
+    <h2 class="heading11" data-number="01">Data Science</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTvxptqkP3jUYXwJFl8WAQ6bV37MDsGQLFsJUIZrCr9nqdMZT7ARVcipiccOPcDzd1y43ZPNNgiAotP/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="350px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        
+        <div class="swiper-slide">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSU5VO0h0-QKH2EXmbUQjyoUghv81s7TDWVffsNlSWaaMLtO4lRszvl8N1uY87YVgJZz1CB3u0YEGRS/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="350px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        <div class="swiper-slide">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vReeubfdHOOn69BgHgfjtO2puKgk4UOAlQJR-4GhdbA31nmvKW_25BUxigcru-52xLsTK8wRH3OQZu5/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="350px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        </div>
+        <!-- 必要に応じてページネーション -->
+        <div class="swiper-pagination"></div>
+        <!-- 必要に応じてナビボタン -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    
+
+    <h2 class="heading11" data-number="02">Web App</h2>
+
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR5iRKOnAe33kmscFC_I8tAcAyenPxDzGJqDrzDNB9gLgtLQKhWdxWPVrdTLMAcdoR2ZwTeYeOSVEgZ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="350px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        
+        <div class="swiper-slide">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQIExvOPl1dZqZSe26-KdhAMbk2FVjOVrjNKbb0QS8RPojcJJRDhdQmF9uwy6UyrrKL8VjdROkZQLco/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="350px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        </div>
+        <!-- 必要に応じてページネーション -->
+        <div class="swiper-pagination"></div>
+        <!-- 必要に応じてナビボタン -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <script>
+        const swiper = new Swiper(".swiper", {
+            // ページネーションが必要なら追加
+            pagination: {
+              el: ".swiper-pagination"
+            },
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "2",
+          
+            coverflowEffect: {
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true
+            },
+          
+            // ナビボタンが必要なら追加
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev"
+            }
+          });
+    </script>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="copyright">&copy;YUTO YASUHARA</div>
+    </footer>
+    <!-- /footer -->
+
+    </div>
+</body>
+</html>
